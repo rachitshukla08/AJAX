@@ -45,7 +45,7 @@ console.log("Made DELETE AJAX call to server at "+showTime());
 const postURL = "http://127.0.0.1:3000/employees";
 const emplData = {"name":"Harry","salary":"5000"};
 function userAdded(data){
-    console.log("User Adde at: "+showTime()+" data: "+data);
+    console.log("User Added at: "+showTime()+" data: "+data);
 }
 makeAJAXcall("POST",postURL,userAdded,true,emplData);
 console.log("Made POST AJAX call to server at "+showTime());
